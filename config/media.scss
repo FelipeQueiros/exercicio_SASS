@@ -1,0 +1,41 @@
+
+
+/* Tablet iPad AIR */
+@media screen and (max-width: 1023px) {
+    .container {
+        max-width: 80%;
+    }
+
+    .products p, h4, h2 {
+        text-align: center;
+        padding-bottom: 1%;
+        text-decoration: underline;
+    }
+
+    .products {
+        grid-template-columns: repeat(2, 48.5%);
+        column-gap: 3%;
+    }
+}
+
+
+
+/* Iphone SE */
+@media screen and (max-width: 767px) {
+    .products {
+        display: block;
+    }
+
+    .products p, h4, h2 {
+        text-align: center;
+        padding-bottom: 1%;
+        text-decoration: underline;
+    }
+
+    .products img {
+        max-width: 80%;
+        display: block;
+        margin: auto;
+        padding-bottom: 10%;
+    }
+}

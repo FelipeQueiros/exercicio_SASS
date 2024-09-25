@@ -1,0 +1,29 @@
+.products {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 32.66%);
+    column-gap: 1%;
+    row-gap: 4%;
+    width: 100%;
+}
+
+.product-item img {
+    width: 100%;
+    border-radius: 16px;
+}
+
+
+
+.products li {
+    list-style: none;
+}
+
+
+
+.product-button:hover {
+    background-color: darken($color: #44bd32, $amount: 25%);
+}
+
+.product-item  {
+    margin-bottom: 32px;
+}
